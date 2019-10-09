@@ -1,0 +1,65 @@
+URL
+============
+www.json.org
+https://jsoneditoronline.org
+www.jsonlint.com
+http://json.parser.online.fr
+www.utilities-online.info/xmltojson
+
+
+JSON
+javascript object notation
+
+standar que nace de una necesidad, ya que solo estaba xml y json es fruto de la necesidad de solo tener xml
+
+json cumpple ocn un standar basada en texto plano para el intercambio de informacion persistente.
+
+PROS:
++ Facil de compartir entre cliente y servidor.
++ compatibilidad con muchos lenguajes de programacion (javascript, objectivec, c++, c#, java, python, perl, cobol, lua, delphi, ruby, VB...)
+
+existen a parte de json y xml, yaml, plist, ogdl, so xml, expression
+
+JSON VS XML
+==============
++ json pesa menos que xml
++ en xml para crear la misma informacion es necesario crear mas flujo de datos
++ estructuralmente json nos recuerda a diccionario de python
+
+PARSEAR / SERIALIZAR
+==========
+Es un proceso de analizar la estrucutra gramatical y eso nos serviria de regla para interpretar que la estructura de datos es json.
++ eval("(" + data + ")")
+
+
++ json.parse()
++ json.stringfy()
+
+
+http://json.parser.online.fr/
+
+String parseJS eval
+{
+"data1":
+[
+    "aaaa",
+    "bbbb",
+    "cccc"
+],
+
+"edad":"18",
+"lenguaje":"python",
+"pttt":
+[
+    "ccc",
+    "www",
+    {
+        "aaa":"xxdato",
+        "bbb":"ssss"
+    }
+]
+}
+
+
+
+

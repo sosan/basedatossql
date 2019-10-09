@@ -1,0 +1,118 @@
+BASE DE DATOS-
+
+ARCHIVO => CODIGO.JS
+NO necesitan en el futuro una gestion
+
+backend => servidor, base de DATOS
+frontend => navegador
+
+
+la inmensa mayoria de programadores modernos se enfocan en uno solo. pero ningun programdor profesioanl solo sabe de su lado del tablero.
+si eres frotend sabe aglo de backend y civceversa
+
+BASE DE DATOS HAY MUCHAS-
+
+MYSQL  DB RELACIONALES
+MONGODB DB NO RELACIONES
+
+backend . el codigo de programacion que crea una conexion a las base de datos.
+servidor es cliente contra la base datos
+servidor=> nginx apachae node
+las tecnologia de frontend => html, css, JS
+backend => hay muchas mas opciones de tecnologia
+
+framework de js => react /angular /vue
+stack (grupo de tecnologia):
++ LAMP ocupa linux, apache, mysql, php
+
+JAMAS SE ACCEDE A LA BASE DE DATOS DESDE FRONTEND SIN UN BACKEND.
+METODOS DE COMUNICACION. 
++ GET  url donde lleva toda la informaicon url?modelo=fff&mmm=222&password=ffssss
++ POST donde enviamos
++ AJAX asincronimso en javascript
++ SOCKETS => datos cliente/servido en tiempo real, como videojuegos.
+
+el modelo RELACIONAL.
+==============
+el modelo relacion tienen tablas, el modelo relacion esta baaso en el concepto logico de relacion, la cual se representa fisicamente ne forma de una tabla.
+
+tupas. es una fila o registtro de una relaciongrado . es el numero de atributos que contuene una relacion
+cardinaalidad. es el numero de tuplas que contine una relacion
+tuplas => row
+atribulos => columnas
+
+
+2. COMO FUNCIONAN LAS BASE DE DATOS
+muchas empiezan con excel
+
+
+LENGUAJE DE BASE DE DATOS
++ SQL
+
+SISTEMA DE GESTION DE BASE DE datos
++ SQL SERVER
++ MYSQL
++ POSTGRESQL
++ MONODDB
+
+CLAVE PRIMARIA O PRINCIPAL => atributo obligatorio
+
+CLIENTE => PEDIDO
+  + PRODUCTO +
+
+ALGUNAS TABLAS NO NECESITAN RELACIONARSE CON ALGUIEN
+
+CLAVE FK => CLAVE QUE RELACIONA ENTRE DOS TABLAS.
+
+
+RELACIONES DIAGRAMAS
+CLIENTE >=> PEDIDO
+CATEGORIA (1) => (8)PRODUCTOS
+DEPARTAMENTO => EMPLEADOS
+CLASE => ESTUDIANTES
+
+
+
+
+
+admin
+1971..
+
+
+
+CREATE DATABASE IF NOT EXISTS NOMBRE_DB;
+
+show warnings;
+DROP database NOMBRE_DB; 
+DESC NOMBRE_TABLA;
+
+show full columns from NOMBRE_DB;
+
+select * from sys.metrics;
+
+
+CREATE TABLE IF NOT EXISTS ciudades
+(
+id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+ciudad VARCHAR(60) NOT NULL,
+-- comentario
+longitud DOUBLE(6,2) NOT NULL DEFAULT 100.0,
+idioma VARCHAR(2) NOT NULL DEFAULT "es" COMMENT "ISO 639-1",
+cantidadpersonas INTEGER NOT NULL DEFAULT 1000
+
+);
+
+
+CREATE TABLE IF NOT EXISTS autor
+(
+    id_autor INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+    nacionalidad VARCHAR(3)
+);
+
+
+
+
+
+
+

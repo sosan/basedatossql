@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+
+        {% if dt["isError"] == 2 %}
+            <p>El pais es {{ dt["pais"] }} y su poblacion es {{ dt["poblacion"] }}</p>
+        {% elif dt["isError"] == 1 %}
+            {{ dt["mensajeError"] }}
+        {% endif %}
+
+        <br><br>
+        <form action="/" method="POST">
+
+            <input type="text" name="pais" placeholder="IOntroduce paise">
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

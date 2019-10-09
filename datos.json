@@ -1,0 +1,36 @@
+{
+    "array": [
+        1,
+        2,
+        3
+    ],
+    "boolean": true,
+    "color": "#82b92c",
+    "null": null,
+    "number": 123,
+    "object": {
+        "a": "b",
+        "c": "d",
+        "e": "f"
+    },
+    "string": "Hello World",
+    "nombre": "toni",
+    "id": 190,
+    "profesor": true,
+    "idcursos": [
+        245,
+        444,
+        222,
+        111
+    ],
+    "cursos": {
+        "python": "inicio en python",
+        "javascript": "inicio en javascript",
+        "editores": [
+            "sublime text",
+            "atom",
+            "vscode"
+        ]
+    },
+    "observaciones": null
+}
